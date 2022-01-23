@@ -30,7 +30,7 @@ jobs:
 
       - uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: ubuntu
+          image: cloud-init
           tags: latest
           registry: ghcr.io
           username: ${{ github.actor }}
